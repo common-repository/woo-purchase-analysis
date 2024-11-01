@@ -1,0 +1,129 @@
+.woocommerce-MyAccount-content{
+	width: 100%!important;
+}
+.woocommerce-MyAccount-navigation{
+	display: none;
+}
+.mypurchase-filter .right{
+	display: block;
+	width: 25%;
+	float: left;
+	padding: 0px 30px 10px 0px;
+}
+.mypurchase-filter .left{
+	width: 75%;
+	float: left;
+}
+ul{
+	list-style: none;
+}
+.product-list{
+	list-style: none;
+}
+.product-list li{
+	width: 22%;
+	float: left;
+}
+.product-list li.first{
+	clear: both;
+}
+.product-container li a.ajax_add_to_cart{
+	box-shadow: 0 1px 0 #0f0f0f!important;
+}
+.product-container li a.ajax_add_to_cart:hover
+{
+	webkit-box-shadow: 0 3px 0 #0f0f0f;
+    box-shadow: 0 3px 0 #0f0f0f!important;
+}
+.product-list li .thumb{
+	height: 180px;
+	width: 100%;
+	float: left;
+	overflow: hidden;	
+}
+.select-category{
+	margin: 20px 0px;
+}
+.select-year{
+	border: 1px solid #32526E;
+	margin: 20px 0px;
+}
+.filters .inner{
+	border: 1px solid #32526E;
+	overflow: auto;
+}
+.filters h4 span
+{
+	float: right;
+    font-weight: 500;
+    cursor: pointer;
+}    
+.select-year ul{
+	list-style: none;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.select-category .inner , .select-year .inner{
+	border: 1px solid #32526E;
+}
+.select-category ul{
+	padding: 5px;
+	list-style: none;
+	margin-bottom: 10px;
+}
+.inner .select-category h4 , .inner .select-year h4 , .inner .filters h4
+{
+	color: white; padding: 10px; background: #32526E;
+	margin: 0;
+}
+
+.filter-list span{
+	background:gray;
+	padding: 5px;
+	margin: 5px;
+	color: white;
+	float: left;
+}
+.filter-list{
+	padding: 0px 5px;
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.filter-button{
+	display: none;
+}
+.loader-gif{
+	text-align: center; display: none height: 460px; line-height: 460px;
+}
+.product-container .woocommerce ul.products.columns-4 li{
+	width: 21%;
+}
+.products.columns-4 li:nth-child(4n+1){
+	clear: both;
+}
+.woocommerce{
+	min-width: 100%;
+}
+@media(max-width: 768px)
+{
+	.filter-list span{
+		font-size: 10px;
+	}	
+}
+@media(min-width: 320px) and (max-width: 900px)
+{
+	.mypurchase-filter .right{
+		display: none;
+	}
+	.filter-button{
+		display: block;
+		margin-bottom: 10px;
+	}
+	.mypurchase-filter .left{
+		width: 100%;
+	}
+	.mypurchase-filter .right{
+		width: 100%;
+	}
+}
